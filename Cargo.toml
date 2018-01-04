@@ -1,0 +1,11 @@
+[package]
+name = "regex"
+version = "0.1.0"
+authors = ["freestrings <freestrings@gmail.com>"]
+
+[dependencies]
+regex = "0.2"
+
+[lib]
+doctest = false
+crate-type = ["cdylib"]
